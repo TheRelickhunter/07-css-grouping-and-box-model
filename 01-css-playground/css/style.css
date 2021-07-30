@@ -1,0 +1,99 @@
+
+body {
+    background-color: #a5a5a8;
+   
+}
+.dislike-adjectives {
+    background-color: rgb(255, 79, 79);
+    box-shadow: 2px 5px 5px;
+}
+header {
+    background-color: #585a5a;
+    height: 100px;
+}
+nav {
+    font-family: monospace;
+    font-size: 1.5em;
+    box-shadow: 5px 2px 5px; 
+}
+nav #menu {
+    margin: 0 auto;
+    width: 50%;
+   
+}
+
+nav #menu li{
+display: inline;
+margin-right: 25px;
+/* margin-left: 25px; */
+border-left: solid black 5px;
+}
+
+nav #menu #submenu::before{
+    content:' >> ';
+}
+
+nav #menu #submenu ul {
+    display: none;
+   
+}
+nav #menu #submenu:hover ul,
+nav #menu #submenu:hover ul li 
+{
+    display: block;
+}
+
+aside{
+    display: block;
+    width: 25%;
+    background-color: #e8e8e8;
+    box-shadow: black 10px 10px 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+section {
+    
+    display: inline;
+}
+article {
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    width: 50%;
+    margin: 0px auto 50px auto;
+    display: block;
+    background-color: #e8e8e8;
+    box-shadow: black 10px 10px 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+article img {
+    height: auto;
+    width: 100%;
+    max-width: 480px;
+    display: block;
+    margin: 0px auto;
+    border: blue 2px solid;
+    padding: 5px;
+}
+img[title^="first"] {
+    border: red 2px solid;
+    padding: 5px;
+}
+.lorem-paragraph::first-letter{
+    font-size: 40px;
+}
+.lorem-paragraph:nth-of-type(2n+1) {
+    background-color: #60f5ed;
+}
+footer {
+    box-shadow: 0px -5px 10px;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+#copyright {
+    
+    margin:0 auto;
+    text-align: center;
+}

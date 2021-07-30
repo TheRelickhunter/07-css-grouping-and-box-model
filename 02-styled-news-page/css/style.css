@@ -1,0 +1,149 @@
+header {
+    background-color: black;
+    height: 100px;
+}
+.BBC-logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    font-size: 30px;
+
+}
+#logo {
+    float: left;
+    height: 100px;
+    
+}
+
+a.header-btn,a.header-btn:link {
+    
+    width: 100px;
+    height: 25px;
+    border-bottom: 10px black solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    float: left; 
+    margin: 10px 10px;
+}
+
+a.header-btn:hover {
+    
+    border-bottom: 10px white solid;
+}
+
+
+nav {
+    float: left;
+    height: 100px;
+}
+
+nav ul li{
+    border-left: white 2px solid;
+    display: inline;
+    padding: 0px 10px;
+}
+nav ul li a {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ form {
+     margin:16px 10px;
+    float: left;
+}
+#expand-icon {
+    
+    background-image: url("../icons/baseline_expand_more_white_18dp.png");
+    
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+#submenu-more > span {
+    border-left: 5px blue solid;
+}
+#submenu-more{
+    display: none;
+    height: 25px;
+    padding:12px;
+    background-color: white;
+    width:500px;
+    
+     
+}
+
+#submenu:hover + #submenu-more {
+    display: block;
+    
+}
+#submenu-more li a {
+   /*  margin-right: 10px; */
+    color: black;
+}
+#bbc-headlines {
+    height: 50vw;
+    background-color: lightgray;
+    padding: 25px;
+}
+#bbc-headlines> h2, #bbc-headlines .bbc-news-category {
+    border-left: red 5px solid;
+}
+#bbc-headlines .head-article {
+    float: left;
+    
+    height: 600px;
+    padding: 5px;
+}
+
+#bbc-headlines article:not(.head-article) {
+    width: 300px;
+    float: left;
+    margin:0px 10px;
+}
+#bbc-news {
+    background-color: rgb(203, 227, 235);
+    height: 50vw;
+    padding: 25px;
+}
+#bbc-news > h2 , #bbc-news .bbc-news-category{
+    clear: both;
+    display: block;
+    width: 300px;
+    border-left: blue 5px solid;
+}
+#bbc-sports-news > h2 , #bbc-sports-news .bbc-news-category{
+    clear: both;
+    display: block;
+    width: 300px;
+    border-left: blue 5px solid;
+}
+#bbc-sports-news {
+    background-color: lightgreen;
+    padding: 25px;
+}
+#bbc-news article {
+    float: left;
+    width: 300px;
+    margin:0px 10px;
+}
+footer {
+height: 15vw;
+background-color: lightgray;
+padding: 25px;
+}
+
+
+footer .footer-links li {
+   
+    display: inline;
+    margin-right: 50px;
+    
+    list-style: none;
+}
+.footer-links {
+    display: block;
+    text-align: center;
+}
+#copyright {
+    clear: both;
+}
